@@ -31,7 +31,7 @@ Users should be able to:
 
 ## Links
 
-- Solution URL: [Add your Frontend Mentor solution URL here]()
+- Solution URL: https://www.frontendmentor.io/solutions/weather-app-using-vite-react-LjAWAl9a7E
 - Live Site URL: https://leoidk21.github.io/Weather-App/
 
 ---
