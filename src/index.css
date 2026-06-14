@@ -370,6 +370,24 @@ input::placeholder {
     font-weight: var(--fw-semi-bold);
 }
 
+.initial-weather-loading {
+    gap: var(--space-sm);
+    width: fit-content;
+    display: flex;
+    margin: 3rem auto 0;
+    align-items: center;
+    justify-content: center;
+    border-radius: var(--radius-md);
+    background-color: var(--Neutral-800);
+    padding: var(--space-md);
+}
+
+.initial-weather-loading p {
+    color: var(--Neutral-200);
+    font-size: var(--fs-base);
+    font-weight: var(--fw-regular);
+}
+
 /* Weather content grid */
 .weather-container {
     gap: 2rem;

@@ -334,6 +334,13 @@ function WeatherApp() {
                     </form>
 
                     {error && <p className="status-message error">{error}</p>}
+
+                    {loading && !weatherData && !error && (
+                        <div className="initial-weather-loading">
+                            <img src={loadingIcon} alt="" className="loading-icon-spinner" />
+                            <p>Loading weather data...</p>
+                        </div>
+                    )}
                 
                     {weatherData && !error && (
                         <div className="weather-container">
